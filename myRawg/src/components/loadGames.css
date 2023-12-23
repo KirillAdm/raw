@@ -1,0 +1,28 @@
+#root{
+display: flex;
+margin: 0;
+}
+.card-icon{
+    display: grid;
+    justify-items: start;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px 60px  ;
+}
+.card-game{
+    height: 250px;
+    background-color: rgb(89, 83, 83);
+    border-radius: 20px;
+    display: grid;
+    margin-top: 30px ;
+}
+.card-game > img{
+   width: 350px;
+   height: 150px;
+   border-radius: 20px;
+}
+.card-game> h3{
+    margin: 0;
+}
+.card-game > p {
+    margin: 0;
+}
